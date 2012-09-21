@@ -1,9 +1,9 @@
 PROCESS:
 build/install.sh is the executable build file.  It takes three parameters:
 
-    Site: the url of the site you are building. This corresponds to the build/subdirectory name
-    Install profile: local, dev, stg, test, production, etc.  This corresponds to the build/{site}/{deployment}.properties.sh filename.  Do not include ".properties.sh".
-    DB Password: For security's sake, the DB password is not committed to git. You must enter it manually.
+* Site: the url of the site you are building. This corresponds to the build/subdirectory name
+* Install profile: local, dev, stg, test, production, etc.  This corresponds to the build/{site}/{deployment}.properties.sh filename.  Do not include ".properties.sh".
+* DB Password: For security's sake, the DB password is not committed to git. You must enter it manually.
   
 So, for example, the command to run a local example.com build would be:
 
@@ -54,7 +54,8 @@ WHAT'S WHERE:
 
 
 EXAMPLE.COM SHELL SCRIPT CHEAT-SHEET:
+````
 cd build
 ./install.sh example.com local dbpass
-
+````
 That's it!
