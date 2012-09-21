@@ -1,10 +1,12 @@
 PROCESS:
 build/install.sh is the executable build file.  It takes three parameters:
+
     Site: the url of the site you are building. This corresponds to the build/subdirectory name
     Install profile: local, dev, stg, test, production, etc.  This corresponds to the build/{site}/{deployment}.properties.sh filename.  Do not include ".properties.sh".
     DB Password: For security's sake, the DB password is not committed to git. You must enter it manually.
   
 So, for example, the command to run a local example.com build would be:
+
     sudo ./install.sh example.com local dbpass
 
 First, build/install.sh grabs settings from build/{site}/{deployment}.properties.sh
@@ -41,7 +43,7 @@ WHAT'S WHERE:
 |  |--httpdocs (platform-level html/script files, for in the root directory)
 |  |--modules  (platform-level custom modules)
 |  \--themes   (platform-level custom themes)
-|--README.txt
+|--README.md
 |--sites/
 |  \--example.com
 |     |--httpdocs (site-level html/script files, for in the root directory)
