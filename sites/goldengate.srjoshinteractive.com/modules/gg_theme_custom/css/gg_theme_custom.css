@@ -1,0 +1,35 @@
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.45em;
+}
+h3 {
+  font-size: 1.35em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+
+table.views-view-grid td {
+	vertical-align: top;
+}
+
+table.views-view-grid td div.views-field-title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+table.views-view-grid td div.views-field-field-fullname {
+	font-size: .95em;
+	font-style: italic;
+	color:#9F9696;
+}
+
+table.views-view-grid td div.views-field span.views-label,
+table.views-view-grid td span.views-field span.views-label {
+	font-weight: bold;
+}

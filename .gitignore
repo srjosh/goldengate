@@ -1,0 +1,9 @@
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+uploaded_files*
+
+# Ignore paths that are built with Drush Make/build script
+public_html*
+tmp*
+httpdocs*

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GG_places feature.
+ */
+
+include_once('gg_places.features.inc');

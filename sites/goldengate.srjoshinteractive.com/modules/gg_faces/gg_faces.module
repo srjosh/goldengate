@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GG Faces feature.
+ */
+
+include_once('gg_faces.features.inc');

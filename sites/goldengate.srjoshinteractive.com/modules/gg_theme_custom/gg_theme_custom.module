@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implement hook_init to keep our global CSS at the ready.
+ */
+function gg_theme_custom_init() {
+  drupal_add_css(drupal_get_path('module', 'gg_theme_custom') . '/css/gg_theme_custom.css', array('group'=>CSS_THEME, 'every_page'=>true, 'weight'=>20));
+}
