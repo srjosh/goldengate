@@ -10,13 +10,13 @@
 function gg_site_settings_user_default_roles() {
   $roles = array();
 
-  // Exported role: administrator
+  // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',
     'weight' => '3',
   );
 
-  // Exported role: game master
+  // Exported role: game master.
   $roles['game master'] = array(
     'name' => 'game master',
     'weight' => '2',

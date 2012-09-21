@@ -15,7 +15,7 @@ function gg_connection_relations_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'relation';
-  $view->human_name = 'Relationships';
+  $view->human_name = 'Display People Connections';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -63,6 +63,7 @@ function gg_connection_relations_views_default_views() {
   $handler->display->display_options['fields']['rendered_entity']['table'] = 'views_entity_relation';
   $handler->display->display_options['fields']['rendered_entity']['field'] = 'rendered_entity';
   $handler->display->display_options['fields']['rendered_entity']['label'] = '';
+  $handler->display->display_options['fields']['rendered_entity']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['rendered_entity']['alter']['text'] = '[rendered_entity]';
   $handler->display->display_options['fields']['rendered_entity']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['rendered_entity']['link_to_entity'] = 0;

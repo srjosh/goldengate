@@ -10,19 +10,19 @@
 function gg_site_settings_menu_default_menu_custom() {
   $menus = array();
 
-  // Exported menu: main-menu
+  // Exported menu: main-menu.
   $menus['main-menu'] = array(
     'menu_name' => 'main-menu',
     'title' => 'Main menu',
     'description' => 'The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar.',
   );
-  // Exported menu: menu-brainstorming
+  // Exported menu: menu-brainstorming.
   $menus['menu-brainstorming'] = array(
     'menu_name' => 'menu-brainstorming',
     'title' => 'Brainstorming',
     'description' => 'Pages from the Brainstorming of this project',
   );
-  // Exported menu: menu-sidebar-menu
+  // Exported menu: menu-sidebar-menu.
   $menus['menu-sidebar-menu'] = array(
     'menu_name' => 'menu-sidebar-menu',
     'title' => 'Game & World Notes',

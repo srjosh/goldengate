@@ -43,13 +43,13 @@ function gg_connection_relations_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'hidden',
-          'module' => 'relation_format',
+          'module' => 'relation_endpoint',
           'settings' => array(
             'view_modes' => array(
               'node' => 'full',
             ),
           ),
-          'type' => 'relation_format_simple',
+          'type' => 'relation_endpoint',
           'weight' => '0',
         ),
       ),
