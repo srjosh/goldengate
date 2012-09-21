@@ -1,11 +1,11 @@
 PROCESS:
 build/install.sh is the executable build file.  It takes three parameters:
-  Site: the url of the site you are building. This corresponds to the build/subdirectory name
-  Install profile: local, dev, stg, test, production, etc.  This corresponds to the build/{site}/{deployment}.properties.sh filename.  Do not include ".properties.sh".
-  DB Password: For security's sake, the DB password is not committed to git. You must enter it manually.
+    Site: the url of the site you are building. This corresponds to the build/subdirectory name
+    Install profile: local, dev, stg, test, production, etc.  This corresponds to the build/{site}/{deployment}.properties.sh filename.  Do not include ".properties.sh".
+    DB Password: For security's sake, the DB password is not committed to git. You must enter it manually.
   
-  So, for example, the command to run a local example.com build would be:
-  sudo ./install.sh example.com local dbpass
+So, for example, the command to run a local example.com build would be:
+    sudo ./install.sh example.com local dbpass
 
 First, build/install.sh grabs settings from build/{site}/{deployment}.properties.sh
 
@@ -26,7 +26,7 @@ build/install.sh then invokes build/{site}/site.sh, which will allow for site-sp
 Finally, build/install.sh moves from {output_dir}/tmp to {output_dir}/{site}.
 
 
-
+````
 WHAT'S WHERE:
 |--build
 |  |--install.make (platform-level drush make file)
@@ -48,7 +48,7 @@ WHAT'S WHERE:
 |     |--modules  (site-level custom modules)
 |     |--settings.php (site-level settings.php template)
 |     \--themes   (site-level custom themes)
-
+````
 
 
 EXAMPLE.COM SHELL SCRIPT CHEAT-SHEET:
